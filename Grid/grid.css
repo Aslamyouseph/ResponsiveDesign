@@ -1,0 +1,21 @@
+.card {
+  max-width: 300px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: grid;
+  /*TODO: The below line is the one of the important line and its help to create the grid*/
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+h1 {
+  font-size: clamp(2rem, 5vw + 1rem, 4rem);
+  line-height: 1.2;
+  margin: 0.5em 0;
+  text-align: center;
+}
