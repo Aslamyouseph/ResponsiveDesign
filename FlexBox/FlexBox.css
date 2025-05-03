@@ -1,0 +1,37 @@
+/* TODO:In here the items are align in row position  */
+/* .mainContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  FIXME: Justify content is using in the row wise direction 
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+} */
+/*TODO: In here the item are align in column wise*/
+/* .mainContainer {
+  display: flex;
+  flex-direction: column;
+  FIXME: align-items is using in the Colum wise direction;
+  align-items: center;
+  align-items: flex-end;
+  align-items: flex-start;
+} */
+.container1 {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.container2 {
+  background-color: rgb(14, 14, 48);
+  width: 200px;
+  height: 200px;
+}
+.container3 {
+  background-color: rgb(32, 129, 0);
+  width: 200px;
+  height: 200px;
+}
