@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styles */
+.cards {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+/* On wider screens: show two cards per row */
+@media (min-width: 780px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards {
+    width: calc(50% - 20px); /* two in a row with gap */
+  }
+}
