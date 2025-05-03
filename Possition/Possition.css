@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.demo1 {
+  /* TODO: position absolute */
+  position: absolute;
+  top: 230px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 0);
+}
+.demo2 {
+  /* TODO: position Relative */
+  position: relative;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(26, 255, 0);
+}
