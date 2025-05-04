@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image responsive</title>
+    <link rel="stylesheet" href="./image.css" />
+  </head>
+  <body>
+    <picture>
+      <!-- Show large image on screens if screen width is 640px and above -->
+      <source
+        media="(min-width: 640px)"
+        srcset="./images/ProductDetails9.jpg"
+      />
+
+      <!-- Show small image on screen if the screen width is less than 640px -->
+      <img src="./images/laptop54.webp" alt="Small image" />
+    </picture>
+  </body>
+</html>
