@@ -1,0 +1,20 @@
+.firstDiv {
+  width: auto;
+  height: 200px;
+  background-color: red;
+}
+.secondDiv {
+  width: auto;
+  height: 200px;
+  background-color: green;
+}
+.thirdDiv {
+  width: auto;
+  height: 200px;
+  background-color: yellow;
+}
+.fourthDiv {
+  width: auto;
+  height: 200px;
+  background-color: blue;
+}
